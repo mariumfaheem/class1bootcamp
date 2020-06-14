@@ -37,7 +37,7 @@ jobs:
        #so we have to give it token jo khud phle generate krna prega ab token agya toh ya m toh direct copy best krdo but it is not best practice
       # run: surge ./  class1bootcamp.surge.sh --token "e91d1230e61dc27f793e6d2ef02a5acf" yeh sahi nh h krna par
         #ap is ko secret krde toekn ko
-      run: surge ./  class1bootcamp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ class1bootcamp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       
    
       
